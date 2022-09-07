@@ -1,40 +1,129 @@
-Introduction
----
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+ # @cgmorah  /Frontend Assessment [MindArc]
+ Frontend technical assessment MindArc by GIOVANNI MORA
+ 
+ IMPORTANT : It's built with Vue js App & Sass and It's not a regular HTML
+ 
+### Features
+```
+✓ Vue Js
+✓ Vue Router
+✓ Component Base
+✓ Power Bootstrap
+✓ Responsive
+✓ Animate
+✓ No jQuery
+```
 
-Exercise 1
----
-Build a responsive page based on the designs.
+## Project setup
+```
+npm install
+```
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
+### Compiles and minifies for production
+```
+npm run build
+```
 
-##### Assets
-* Desktop banner - http://via.placeholder.com/1920x650
-* Mobile banner - http://via.placeholder.com/600x600
-* Content images - http://via.placeholder.com/400x300
+### Run your tests
+```
+npm run test
+```
 
-Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
+### Lints and fixes files
+```
+npm run lint
+```
 
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
 
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+### Folder Structure
+```
+// root folder
+        +
+        |——aeroland
+        |  |——public/
+        |  |  |——/index.html
+        |  |  |——/favicon.ico
+        |  |  |——/.htaccess
+        |  |——dist/
+        |  |  |——css/
+        |  |  |——img/
+        |  |  |——js/
+        |  |  |——fonts/
+        |  |  |——.htaccess
+        |  |  |——favicon
+        |  |  |——/index.html
+        |  |——src
+        |  |  |——assets/
+        |  |  |  |——css/                          --css files
+	|  |  |  |——data/                         --data.json
+        |  |  |  |——fonts/                        --fonts files
+        |  |  |  |——img/                          --img files
+        |  |  |  |——js/                           --js files
+        |  |  |  |——scss/                         --scss files
+        |  |  |  |——/index.scss
+        |  |  |——components                       --Component Files Folder
+        |  |  |  |——/Accordion.vue
+        |  |  |  |——/FooterMain.vue
+        |  |  |  |——/HeaderDeveloper.vue
+        |  |  |  |——/HelloItemDeveloper.vue
+        |  |  |  |——/TabOne.vue
+        |  |  |——home_pages  
+        |  |  |  |——/HomeDeveloper.vue
+        |  |  |——pages
+        |  |  |  |——/404.vue		
+        |  |  |  |——/ElementAccordion.vue
+        |  |  |——router/
+        |  |  |  |——/index.js
+        |  |  |——/App.vue
+        |  |  |——/main.js
+        |  |——/babel.config.js
+        |  |——/.gitignore.js                    
+        |  |——/package.json
+        |  |——/README.md
+        +
+```
+### Dependencies
+```
+@vue-slick Doc: https://www.npmjs.com/package/vue-slick
+@vue-awesome-swiper Doc: https://www.npmjs.com/package/vue-awesome-swiper
+@vue-bootstrap Doc: https://www.npmjs.com/package/bootstrap
+```
+### DEMO
+https://phpstack-772581-2872088.cloudwaysapps.com/
+
+### PLUS
+
+Explain why the result of ('b' + 'a' + + 'a' + 'a').toLowerCase() is banana.
+```
++'a' resolves to NaN ("This would not be a number") because it converts a string to a number, whereas the character a cannot be parsed as a number.
+
+Lowercase becomes banana.
+
+Adding NaN to "ba" converts NaN to the string "NaN" due to type conversion, giving baNaN.
+And then there's an a behind, getting the famous baNaNa.
+
+The space between ++ is to make the first concatenation of a string and the second a unary plus ("positive") operator.
+You get the same result if you use 'ba'+(+'a')+'a', resolved as 'ba'+NaN+'a', which is equivalent to 'ba'+'NaN'+'a' This is the why! :)
+```
+
+
+###
+Thank you for considering my application. 😉
+
+Best Regards
+
+###
+CESAR GIOVANNI MORA
+| Full  Stack  Developer
+| Project Manager
+| +61 410 740 600 /  +1 818 748 8317
+| www.whuws.com - cgmorah@gmail.com
+| Skype: NIGIVI 
