@@ -116,6 +116,8 @@ You get the same result if you use 'ba'+(+'a')+'a', resolved as 'ba'+NaN+'a', wh
 
 
 ###
+
+🚀 I'd love to start the process with you for this role, looking forward to hearing from you!
 Thank you for considering my application. 😉
 
 Best Regards
